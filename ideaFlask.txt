@@ -1,0 +1,7 @@
+    <h1>Home</h1>
+    {% if name == "Tim" %}
+    Hi {{name}}!
+    {% endif %}
+    {% for x in [1,2,3]%}
+    {{x}}
+    {% endfor %}
